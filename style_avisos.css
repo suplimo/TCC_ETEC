@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+
+body {
+    background-color: #ffffff;
+}
+
+
+.avisos {
+    background: -webkit-linear-gradient(bottom, #f00, #000000);
+    background: -moz-linear-gradient(bottom, #f00, #000000);
+    background: -ms-linear-gradient(bottom, #f00, #000000);
+    background: -o-linear-gradient(bottom, #f00, #000000);
+    background: linear-gradient(to bottom, #f00, #000000);
+    -webkit-background-clip: text;
+            background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 3%;
+    font-weight: bold;
+    
+
+}
+
+.col {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    width: 50%;
+    height: 10vh;
+    padding: 3%;
+
+}
+
+
+.bola {
+    padding: 1%;
+
+}
+
+.suportexto{
+    background: -webkit-linear-gradient(bottom, #f00, #000000);
+    background: -moz-linear-gradient(bottom, #f00, #000000);
+    background: -ms-linear-gradient(bottom, #f00, #000000);
+    background: -o-linear-gradient(bottom, #f00, #000000);
+    background: linear-gradient(to bottom, #f00, #000000);
+    -webkit-background-clip: text;
+            background-clip: text;
+    color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

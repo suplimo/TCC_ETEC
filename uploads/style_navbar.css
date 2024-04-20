@@ -1,0 +1,25 @@
+nav{
+    background-color: #971212;
+    min-height: 6%;
+    max-height: 6%;
+}                        
+
+.navbar-nav {
+    margin-right: 85%;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+a:hover{
+    text-decoration: none;
+    
+}
+
+.navv{
+    text-decoration: none;
+    color: transparent;
+}

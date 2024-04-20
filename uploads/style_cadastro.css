@@ -1,0 +1,162 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+
+html{
+  height: 108%;
+}
+
+.navetec{
+  margin-left: 2%;
+}
+
+.simboloetec{
+  margin-top: 20px;
+}
+
+
+.backlogin{
+  background: -webkit-linear-gradient(top, #971212, #ffffff);
+  background: -moz-linear-gradient(top, #971212, #ffffff);
+  background: -ms-linear-gradient(top, #971212, #ffffff);
+  background: -o-linear-gradient(top, #971212, #ffffff);
+  background: linear-gradient(to top, #971212, #ffffff);
+}
+
+
+
+.card-img-top {
+  margin-top: -20%;
+  height: 25%;
+  width: 65%;
+  margin-left: 50px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.card{
+height: 720px;
+width: 85%; 
+border-radius: 15%; 
+}
+
+  .textin
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: #971212
+}
+
+.textin:hover{
+  font-size: larger;
+
+}
+
+.botao {
+  margin: 5%;
+  width: 30%;
+  border-radius: 25px;
+  box-sizing: border-box;
+  background-color: #ff0000;
+  border-color: #971212;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+
+.olho {
+  cursor: pointer;
+  position: absolute;
+  width: 8%;
+  top: 25px;
+  right: 10px;
+}
+
+input::placeholder {
+    color: #fff;
+  }
+
+  .inp {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    max-width: 280px;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .inp .label {
+    position: absolute;
+    top: 20px;
+    left: 12px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    transform-origin: 0 0;
+    transform: translate3d(0, 0, 0);
+    transition: all 0.2s ease;
+    pointer-events: none;
+  }
+  .inp .focus-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  .inp input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+         appearance: none;
+    width: 100%;
+    border: 0;
+    font-family: inherit;
+    padding: 16px 12px 0 12px;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 400;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 10);
+    color: #fff;
+    transition: all 0.15s ease;
+  }
+  .inp input:hover {
+    background: rgba(0, 0, 0, 0.04);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.5);
+  }
+  .inp input:not(:-moz-placeholder-shown) + .label {
+    color: rgba(0, 0, 0, 0.5);
+    transform: translate3d(0, -12px, 0) scale(0.75);
+  }
+  .inp input:not(:-ms-input-placeholder) + .label {
+    color: rgba(0, 0, 0, 0.5);
+    transform: translate3d(0, -12px, 0) scale(0.75);
+  }
+  .inp input:not(:placeholder-shown) + .label {
+    color: rgba(0, 0, 0, 0.5);
+    transform: translate3d(0, -12px, 0) scale(0.75);
+  }
+  .inp input:focus {
+    background: rgba(0, 0, 0, 0.05);
+    outline: none;
+    box-shadow: inset 0 -2px 0 #fff;
+  }
+  .inp input:focus + .label {
+    color: #fff;
+    transform: translate3d(0, -12px, 0) scale(0.75);
+  }
+  .inp input:focus + .label + .focus-bg {
+    transform: scaleX(1);
+    transition: all 0.1s ease;
+  }
+
+  .chavinha{
+    width: 7%;
+  }
+
